@@ -1,0 +1,56 @@
+#content {
+	width: 90vw;
+    margin: 0 auto;
+}
+
+#temp {
+	font-size: 20vh;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#control {
+	position: relative;
+    font-size: 5vw;
+}
+
+#login {
+    position: absolute;
+	display: flex;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+}
+
+#login_button,
+.active {
+    background-color: #0078e7;
+    color: white;
+}
+
+#mode,
+#updown {
+    display: flex;
+    justify-content: space-around;
+}
+
+#mode {
+	margin: 2rem 0;
+}
+
+#updown {
+	font-size: 10vw;
+}
+
+.fa {
+    pointer-events: none;
+}
+
+.power_off {
+	background-color: #99001e;
+    color: white;
+}
+
+input {
+	width: 100%;
+}

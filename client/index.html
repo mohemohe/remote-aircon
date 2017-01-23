@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="//cdn.ghippos.net/css/pure/0.5.0/pure-min.css" type="text/css" />
+		<link rel="stylesheet" href="//cdn.ghippos.net/css/pure/0.4.1/pure-grid.css" type="text/css" />
+		<link rel="stylesheet" href="//cdn.ghippos.net/css/webkoruri/20140628/webkoruri-force.css" type="text/css" />
+		<link rel="stylesheet" href="//cdn.ghippos.net/css/font-awesome/4.0.3/font-awesome-force.min.css" type="text/css" />
+		<link rel="stylesheet" href="./static/css/style.css?ver=1">
+		<title>エアコンWeb</title>
+	</head>
+	<body>
+		<div id="content">
+			<current-temp></current-temp>
+			<div id="control">
+				<login-form></login-form>
+                <aircon-control></aircon-control>
+			</div>
+			<div id="debug"></div>
+		</div>
+		<script type="text/javascript" defer="defer" src="./static/js/sha512.js"></script>
+        <script type="text/javascript" defer="defer" src="./static/js/riot+compiler.min.js"></script>
+        <script type="riot/tag" defer="defer" src="./tags/current-temp.tag"></script>
+        <script type="riot/tag" defer="defer" src="./tags/login-form.tag"></script>
+        <script type="riot/tag" defer="defer" src="./tags/aircon-control.tag"></script>
+        <script type="riot/tag" defer="defer" src="./tags/mode-control.tag"></script>
+        <script type="riot/tag" defer="defer" src="./tags/value-control.tag"></script>
+		<script type="text/javascript" defer="defer" src="./static/js/script.js"></script>
+	</body>
+</html>
